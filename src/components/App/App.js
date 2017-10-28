@@ -8,10 +8,10 @@ class App extends Component {
       <div className={styles.app}>
         <header className={styles.header}>
           <img src={logo} className={styles.logo} alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to React with SCSS and CSS Modules</h1>
         </header>
         <p className={styles.intro}>
-          To get started, edit <code>src/App.js</code> and save to reload.
+          This App.js file's styles comes from importing App.scss. Using CSS Modules, the styles are scoped locally to this App component.
         </p>
       </div>
     );
